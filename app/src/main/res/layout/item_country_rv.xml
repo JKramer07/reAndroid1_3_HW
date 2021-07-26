@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="26sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/country_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brazil"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/country_icon_iv"
+        android:layout_marginStart="18sp"/>
+
+    <TextView
+        android:id="@+id/city_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rio"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/country_icon_iv"
+        android:layout_marginStart="18sp"
+        android:layout_marginTop="30sp"/>
+
+    <ImageView
+        android:id="@+id/country_icon_iv"
+        tools:src="@drawable/KG3x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
